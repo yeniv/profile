@@ -1,0 +1,112 @@
+body {
+  font-family: 'Helvetica', sans-serif;
+  /*font-family: 'Open Sans', sans-serif;*/
+  color: rgb(50, 50, 50);
+  background-color: rgb(240, 240, 240);
+  /*text-align: center;*/
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 24px;
+  /*font-family: 'Varela Round', sans-serif;*/
+}
+
+p {
+  font-size: 16px;
+  /*line-height: 30px;*/
+}
+
+a {
+  text-decoration: none;
+  /*color: rgb(50, 50, 50);*/
+}
+
+/*a:hover {
+  color: black;
+}*/
+
+ul {
+  font-size: 24px;
+}
+
+.bttn-rounded {
+  color: white;
+  /*background-color: rgb(50, 154, 240);*/
+  background-color: rgb(209, 0, 0);
+  margin: 20px;
+  padding: 20px;
+  /*box-shadow: 0, 10px, 30px, rgba(0,0,0,.1);*/
+  border-radius: 10px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.bttn-rounded:hover {
+  background-color: rgb(229, 0, 0);
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: white;
+  padding: 20px 25px;
+  margin: 20px;
+  text-align: center;
+  box-shadow: 2px 2px 0px 2px rgba(50, 50, 50, 0.02);
+  /*box-shadow: 0 10px 30px rgba(50,50,50,.05);*/
+  border-radius: 5px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  object-fit: cover;
+  width:230px;
+  height:230px;
+  margin-top: 20px;
+}
+
+.logo {
+  font-size: 40px;
+  color: rgb(209, 0, 0);
+}
+
+.logo:hover {
+  color: rgb(229, 0, 0);
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 20px 15px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 600px;
+  }
+}
+@media (max-width: 650px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 450px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
